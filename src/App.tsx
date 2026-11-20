@@ -4,7 +4,9 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
 import Skills from './components/Skills';
-import Education from './components/Projects';
+import Education from './components/Education';
+import Projects from './components/Projects';
+import Certifications from './components/Certifications';
 import Experience from './components/Experience';
 import Contact from './components/Contact';
 import { LanguageProvider, useLanguage } from './components/LanguageContext';
@@ -40,14 +42,16 @@ function AppContent() {
       <Navbar />
       
       <main>
-        <Suspense fallback={<div className="h-screen w-full flex items-center justify-center text-[#FF00FF] font-mono">{language === 'pt' ? 'A CARREGAR CENA...' : 'LOADING SCENE...'}</div>}>
+        <Suspense fallback={<div className="h-screen w-full flex items-center justify-center text-[#FF00FF] font-mono">{language === 'pt' ? 'CARREGANDO CENA...' : 'LOADING SCENE...'}</div>}>
           <Hero />
         </Suspense>
         
         <About />
-        <Skills />
-        <Education />
         <Experience />
+        <Projects />
+        <Skills />
+        <Certifications />
+        <Education />
         <Contact />
       </main>
       

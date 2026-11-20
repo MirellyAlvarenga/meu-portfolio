@@ -45,21 +45,26 @@ export default function About() {
           </motion.div>
           
           <h2 className="text-4xl lg:text-6xl font-bold tracking-tight">
-            {language === 'pt' ? 'Análise de dados e desenvolvimento com foco na entrega de valor.' : 'Data analysis and development focused on delivering value.'}
+            {language === 'pt' ? 'Dados de ponta a ponta: do pipeline ao dashboard.' : 'End-to-end data: from pipeline to dashboard.'}
           </h2>
-          
+
           <div className="space-y-6 text-white/60 leading-relaxed max-w-lg text-lg">
             <p>
               {language === 'pt' ? (
-                <>Sou <strong className="text-white">Mirelly Pego Cordeiro de Alvarenga</strong>, graduanda em Engenharia de Software pela PUC Minas (2024-2027) e técnica em Informática pelo IFMG. Tenho paixão por transformar dados em insights e criar soluções tecnológicas.</>
+                <>Sou <strong className="text-white">Mirelly Pego Cordeiro de Alvarenga</strong>, graduanda em Engenharia de Software pela PUC Minas, com formação técnica em Informática pelo IFMG, e atuação na área de dados.</>
               ) : (
-                <>I am <strong className="text-white">Mirelly Pego Cordeiro de Alvarenga</strong>, a Software Engineering student at PUC Minas (2024-2027) and an Informatics technician from IFMG. I have a passion for transforming data into insights and creating technological solutions.</>
+                <>I am <strong className="text-white">Mirelly Pego Cordeiro de Alvarenga</strong>, a Software Engineering student at PUC Minas with a technical degree in Informatics from IFMG, working in the data field.</>
               )}
             </p>
             <p>
-              {language === 'pt' 
-                ? 'Com experiência como Analista de Dados na dti digital, possuo habilidades práticas em Power BI e SQL, além de conhecimentos em desenvolvimento web (Java e Angular) e certificação em Pipefy Process Automation.' 
-                : 'With experience as a Data Analyst at dti digital, I have practical skills in Power BI and SQL, as well as knowledge in web development (Java and Angular) and certification in Pipefy Process Automation.'}
+              {language === 'pt'
+                ? 'Trabalho com dados de ponta a ponta: desenvolvo pipelines de ETL, modelo e mantenho data warehouses em PostgreSQL e crio relatórios e modelos semânticos no Power BI, com foco em performance. Gosto de transformar dados brutos em informação confiável para a tomada de decisão.'
+                : 'I work with data end to end: I build ETL pipelines, model and maintain data warehouses in PostgreSQL, and create reports and semantic models in Power BI with a focus on performance. I enjoy turning raw data into reliable information for decision-making.'}
+            </p>
+            <p>
+              {language === 'pt'
+                ? 'Minha experiência anterior em desenvolvimento de software me ajuda a entender como os dados nascem nos sistemas e a construir soluções mais completas.'
+                : 'My previous experience in software development helps me understand how data is born inside systems and build more complete solutions.'}
             </p>
           </div>
         </div>

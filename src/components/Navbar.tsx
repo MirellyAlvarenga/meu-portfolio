@@ -5,8 +5,10 @@ import { useLanguage } from './LanguageContext';
 const navLinks = [
   { key: 'nav.about', href: '#sobre' },
   { key: 'nav.experience', href: '#experiencia' },
-  { key: 'nav.education', href: '#educacao' },
+  { key: 'nav.projects', href: '#projetos' },
   { key: 'nav.skills', href: '#competencias' },
+  { key: 'nav.certifications', href: '#certificacoes' },
+  { key: 'nav.education', href: '#educacao' },
   { key: 'nav.contact', href: '#contacto' }
 ];
 
@@ -31,7 +33,7 @@ export default function Navbar() {
         Mirelly<span className="text-[#FF00FF]">.</span>
       </motion.a>
 
-      <div className="hidden md:flex gap-10 items-center pointer-events-auto">
+      <div className="hidden lg:flex gap-8 items-center pointer-events-auto">
         {navLinks.map((link, i) => (
           <motion.a
             key={link.href}

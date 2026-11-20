@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'motion/react';
+import { ArrowDown } from 'lucide-react';
 import CanvasScene from './CanvasScene';
 import { useLanguage } from './LanguageContext';
 
@@ -30,18 +31,21 @@ export default function Hero() {
           <div className="mt-12 flex items-center gap-4">
             <div className="w-12 h-[1px] bg-white/50"></div>
             <p className="max-w-md text-white/60 text-lg lg:text-xl font-light">
-              {language === 'pt' 
-                ? 'Análise de Dados | Power BI | SQL | Pentaho. Graduanda em Engenharia de Software pela PUC Minas.'
-                : 'Data Analysis | Power BI | SQL | Pentaho. Software Engineering student at PUC Minas.'}
+              {language === 'pt'
+                ? <>Analista de Dados Júnior na <strong className="text-white font-semibold">dti digital</strong>. Engenharia de Dados & BI.</>
+                : <>Junior Data Analyst at <strong className="text-white font-semibold">dti digital</strong>. Data Engineering & BI.</>}
+              <span className="block mt-2 font-mono text-sm text-white/40">
+                Python · SQL · dbt Core · Apache Airflow · Docker · PostgreSQL · Power BI
+              </span>
             </p>
           </div>
 
-          <div className="mt-10 flex flex-col sm:flex-row gap-4">
-            <a href="#experiencia" className="bg-[#FF00FF] hover:bg-[#ff4dff] text-black px-8 py-3.5 rounded-full font-semibold transition-all shadow-lg shadow-[#FF00FF]/20 text-center flex items-center justify-center gap-2">
-              {language === 'pt' ? 'Ver Trajetória' : 'View Path'} <i className="fas fa-arrow-down text-sm"></i>
+          <div className="mt-10 flex flex-col sm:flex-row gap-4 pointer-events-auto">
+            <a href="#projetos" className="bg-[#FF00FF] hover:bg-[#ff4dff] text-black px-8 py-3.5 rounded-full font-semibold transition-all shadow-lg shadow-[#FF00FF]/20 text-center flex items-center justify-center gap-2">
+              {language === 'pt' ? 'Ver Projetos' : 'View Projects'} <ArrowDown size={16} />
             </a>
             <a href="https://www.linkedin.com/in/mirelly-pego-cordeiro-de-alvarenga/" target="_blank" rel="noreferrer" className="bg-black/80 border border-white/10 hover:border-[#FF00FF] hover:bg-white/5 text-white px-8 py-3.5 rounded-full font-semibold transition-all text-center flex items-center justify-center gap-2">
-              <i className="fab fa-linkedin text-[#FF00FF]"></i> {language === 'pt' ? 'Conectar' : 'Connect'}
+              {language === 'pt' ? 'Conectar no LinkedIn' : 'Connect on LinkedIn'}
             </a>
           </div>
         </motion.div>

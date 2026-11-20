@@ -1,17 +1,21 @@
 # Mirelly Alvarenga | Portfólio
 
-Portfólio pessoal de **Mirelly Pego Cordeiro de Alvarenga**, graduanda em Engenharia de Software com foco em análise de dados, Business Intelligence e automação de processos.
+Portfólio pessoal de **Mirelly Pego Cordeiro de Alvarenga**, Analista de Dados Júnior na dti digital, com foco em Engenharia de Dados e BI.
 
-O site reúne minha trajetória, experiências, formação e competências, além de canais diretos de contato e o download do meu currículo.
+`Python · SQL · dbt Core · Apache Airflow · Docker · PostgreSQL · Power BI`
+
+O site reúne minha trajetória, projetos, competências, certificações e formação, além de canais diretos de contato e o download do meu currículo.
 
 ## Seções
 
 - **Início**: apresentação e acesso rápido ao LinkedIn
-- **Sobre mim**: quem sou e o que me motiva
-- **Experiência**: minha trajetória profissional
-- **Educação**: formação acadêmica
-- **Competências**: Power BI, SQL, Pentaho, automação de processos (Pipefy) e análise de dados
-- **Contato**: envio de email, download do currículo e LinkedIn
+- **Sobre mim**: atuação com dados de ponta a ponta, do pipeline ao dashboard
+- **Experiência**: Analista de Dados Júnior e Estágio em Análise de Dados na dti digital
+- **Projetos**: B2G Market Radar, plataforma end-to-end de Engenharia de Dados & BI sobre licitações públicas (PNCP)
+- **Competências**: engenharia de dados, BI & análise, automação e desenvolvimento
+- **Certificações**: Databricks, IBM, Kaggle, Pipefy e Power Platform
+- **Educação**: Engenharia de Software (PUC Minas) e Técnico em Informática (IFMG)
+- **Contato**: email pelo Gmail, download do currículo e LinkedIn
 
 O site está disponível em **português e inglês**, com troca de idioma pelo menu.
 
@@ -58,7 +62,7 @@ meu-portfolio/
 ├── public/
 │   └── Mirelly_Pego_CV.pdf   # currículo disponível para download
 ├── src/
-│   ├── components/           # seções do site (Hero, About, Skills, ...)
+│   ├── components/           # seções do site (Hero, About, Projects, Certifications, ...)
 │   ├── imagens/              # fotos e imagens
 │   ├── App.tsx               # montagem da página
 │   ├── main.tsx              # ponto de entrada
