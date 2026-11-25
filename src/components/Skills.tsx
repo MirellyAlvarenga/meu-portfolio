@@ -10,13 +10,15 @@ export default function Skills() {
     {
       title: pt ? 'Engenharia de Dados' : 'Data Engineering',
       description: pt ? 'Pipelines, modelagem e orquestração.' : 'Pipelines, modeling, and orchestration.',
-      skills: ['Python', 'SQL', 'dbt Core', 'Apache Airflow', 'Docker', 'PostgreSQL', 'Databricks', 'Pentaho', 'GitHub Actions']
+      skills: ['Python', 'SQL', 'dbt Core', 'Apache Airflow', 'Docker', 'PostgreSQL', 'DuckDB', 'Apache Parquet', 'Databricks', 'Pentaho', 'GitHub Actions']
     },
     {
       title: pt ? 'BI & Análise' : 'BI & Analytics',
       description: pt ? 'Da consulta à decisão.' : 'From query to decision.',
       skills: [
         'Power BI',
+        'Streamlit',
+        'Plotly',
         pt ? 'Modelos Semânticos' : 'Semantic Models',
         pt ? 'Modelagem Dimensional' : 'Dimensional Modeling',
         'Excel',

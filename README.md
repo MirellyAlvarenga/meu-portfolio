@@ -11,7 +11,7 @@ O site reúne minha trajetória, projetos, competências, certificações e form
 - **Início**: apresentação e acesso rápido ao LinkedIn
 - **Sobre mim**: atuação com dados de ponta a ponta, do pipeline ao dashboard
 - **Experiência**: Analista de Dados Júnior e Estágio em Análise de Dados na dti digital
-- **Projetos**: B2G Market Radar, plataforma end-to-end de Engenharia de Dados & BI sobre licitações públicas (PNCP)
+- **Projetos**: Climate Data Lake (pipeline de dados climáticos com Parquet, DuckDB e Streamlit) e B2G Market Radar (plataforma de Engenharia de Dados & BI sobre licitações públicas do PNCP)
 - **Competências**: engenharia de dados, BI & análise, automação e desenvolvimento
 - **Certificações**: Databricks, IBM, Kaggle, Pipefy e Power Platform
 - **Educação**: Engenharia de Software (PUC Minas) e Técnico em Informática (IFMG)
